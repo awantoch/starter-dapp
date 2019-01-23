@@ -158,7 +158,7 @@ contract ContactInfo {
 }
 ```
 
-This simple contract creates several variables that are set upon contract deployment, and can be changed only by the owner of the contract (i.e, the deployer). The contract also contains a function to transfer the contract ownership in the case of switching keys/wallets. More detail regarding function modifiers in Soldity can be found [here](https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e). You can find Solidity's documentation [here](https://solidity.readthedocs.io/en/v0.5.0/).
+This simple contract creates several variables that are set upon contract deployment, and can be changed only by the owner of the contract (i.e, the deployer). The contract also contains a function to transfer the contract ownership in the case of switching keys/wallets. More detail regarding function modifiers in Solidity can be found [here](https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e). You can find Solidity's documentation [here](https://solidity.readthedocs.io/en/v0.5.0/).
 
 ## Compiling, Deploying and Running the Contract Locally
 
